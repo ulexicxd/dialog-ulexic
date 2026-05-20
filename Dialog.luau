@@ -1,5 +1,5 @@
 local Packages = script.Parent:WaitForChild("Packages")
-local Signal = require(Packages:WaitForChild("Signal"))
+local Signal = require(Packages:WaitForChild("Signal")) -- path to signal
 
 local Dialog = {}
 Dialog.__index = Dialog
